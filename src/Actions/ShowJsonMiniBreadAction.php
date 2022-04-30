@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonMiniBreadHook\Actions;
+namespace Cristianhr\JsonMiniBreadHook\Actions;
 
 use JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
 use JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;

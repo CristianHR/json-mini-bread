@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonMiniBreadHook\Actions;
+namespace Cristianhr\JsonMiniBreadHook\Actions;
 
 class JsonMiniBreadEditAction extends AbstractAction
 {

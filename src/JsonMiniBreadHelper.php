@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonMiniBreadHook;
+namespace Cristianhr\JsonMiniBreadHook;
 
 use Illuminate\Support\Str;
 use TCG\Voyager\Models\DataRow;

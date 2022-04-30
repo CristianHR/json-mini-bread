@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonMiniBreadHook\Events;
+namespace Cristianhr\JsonMiniBreadHook\Events;
 
 use Illuminate\Queue\SerializesModels;
 use TCG\Voyager\Events\BreadDataChanged;

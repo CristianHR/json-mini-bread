@@ -1,13 +1,13 @@
 <?php
 
-namespace JsonMiniBreadHook\Http\Controllers;
+namespace Cristianhr\JsonMiniBreadHook\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use JsonMiniBreadHook\Events\JsonMiniBreadDataAdded;
-use JsonMiniBreadHook\Events\JsonMiniBreadDataDeleted;
-use JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
-use JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;
+use Cristianhr\JsonMiniBreadHook\Events\JsonMiniBreadDataAdded;
+use Cristianhr\JsonMiniBreadHook\Events\JsonMiniBreadDataDeleted;
+use Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
+use Cristianhr\JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;
 use TCG\Voyager\Events\BreadDataAdded;
 use TCG\Voyager\Events\BreadDataDeleted;
 use TCG\Voyager\Events\BreadImagesDeleted;

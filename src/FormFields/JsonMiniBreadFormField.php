@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonMiniBreadHook\FormFields;
+namespace Cristianhr\JsonMiniBreadHook\FormFields;
 
 use TCG\Voyager\FormFields\AbstractHandler;
 

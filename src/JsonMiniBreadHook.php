@@ -1,11 +1,11 @@
 <?php
 
-namespace JsonMiniBreadHook;
+namespace Cristianhr\JsonMiniBreadHook;
 
 use Illuminate\Support\Str;
-use JsonMiniBreadHook\Actions\JsonMiniBreadDeleteAction;
-use JsonMiniBreadHook\Actions\JsonMiniBreadEditAction;
-use JsonMiniBreadHook\Actions\JsonMiniBreadViewAction;
+use Cristianhr\JsonMiniBreadHook\Actions\JsonMiniBreadDeleteAction;
+use Cristianhr\JsonMiniBreadHook\Actions\JsonMiniBreadEditAction;
+use Cristianhr\JsonMiniBreadHook\Actions\JsonMiniBreadViewAction;
 use TCG\Voyager\Models\DataRow;
 
 class JsonMiniBreadHook

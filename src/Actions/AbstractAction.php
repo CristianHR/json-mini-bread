@@ -1,6 +1,6 @@
 <?php
 
-namespace JsonMiniBreadHook\Actions;
+namespace Cristianhr\JsonMiniBreadHook\Actions;
 
 use TCG\Voyager\Actions\AbstractAction as VoyagerAbstractAction;
 

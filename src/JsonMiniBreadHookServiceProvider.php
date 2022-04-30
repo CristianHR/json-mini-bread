@@ -1,12 +1,12 @@
 <?php
 
-namespace JsonMiniBreadHook;
+namespace Cristianhr\JsonMiniBreadHook;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Support\ServiceProvider;
-use JsonMiniBreadHook\Actions\ShowJsonMiniBreadAction;
-use JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
-use JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;
+use Cristianhr\JsonMiniBreadHook\Actions\ShowJsonMiniBreadAction;
+use Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
+use Cristianhr\JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Models\DataType;
 

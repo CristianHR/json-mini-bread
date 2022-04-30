@@ -1,22 +1,29 @@
 {
-    "name": "json-mini-bread",
+    "name": "cristianhr-json-mini-bread",
     "description": "Creates a mini BREAD nested inside another model.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Hilario Rentera",
+            "email": "khristiamr@gmail.com"
+        }
+    ],
     "require": {
-        "larapack/hooks": "^1.0.5",
-        "tcg/voyager": "^1.2.7"
+        "larapack/hooks": "1.*",
+        "tcg/voyager": "1.*"
     },
     "autoload": {
         "psr-4": {
-            "JsonMiniBreadHook\\": "src/"
+            "Cristianhr\\JsonMiniBreadHook\\": "src/"
         }
     },
     "extra": {
         "hook": {
             "providers": [
-                "JsonMiniBreadHook\\JsonMiniBreadHookServiceProvider"
+                "Cristianhr\\JsonMiniBreadHook\\JsonMiniBreadHookServiceProvider"
             ],
             "aliases": {
-                "JsonMiniBreadHook": "JsonMiniBreadHook\\Facades\\JsonMiniBreadHookFacade"
+                "JsonMiniBreadHook": "Cristianhr\\JsonMiniBreadHook\\Facades\\JsonMiniBreadHookFacade"
             },
             "views": [
                 "resources/views"
