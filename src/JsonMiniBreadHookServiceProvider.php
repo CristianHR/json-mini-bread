@@ -56,13 +56,13 @@ class JsonMiniBreadHookServiceProvider extends ServiceProvider
                     $dataTypeSlugSingular = JsonMiniBreadHookFacade::getSlugSingular($dataType->slug);
                     $miniBreadSlug = kebab_case($dataRow->display_name);
                     $router->get("{$dataTypeSlug}/{{$dataTypeSlugSingular}}/{$miniBreadSlug}/",
-                        '\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@index')->name("{$dataTypeSlug}.mini.index");
+                        '\\Cristianhr\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@index')->name("{$dataTypeSlug}.mini.index");
                     $router->post("{$dataTypeSlug}/{{$dataTypeSlugSingular}}/{$miniBreadSlug}/",
-                        '\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@store')->name("{$dataTypeSlug}.mini.store");
+                        '\\Cristianhr\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@store')->name("{$dataTypeSlug}.mini.store");
                     $router->put("{$dataTypeSlug}/{{$dataTypeSlugSingular}}/{$miniBreadSlug}/{id}",
-                        '\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@update')->name("{$dataTypeSlug}.mini.update");
+                        '\\Cristianhr\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@update')->name("{$dataTypeSlug}.mini.update");
                     $router->delete("{$dataTypeSlug}/{{$dataTypeSlugSingular}}/{$miniBreadSlug}/{id}",
-                        '\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@destroy')->name("{$dataTypeSlug}.mini.destroy");
+                        '\\Cristianhr\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@destroy')->name("{$dataTypeSlug}.mini.destroy");
                 }
             } catch (\Exception $ex) {
             }
