@@ -9,7 +9,7 @@
             <form role="form"
                   class="form-edit-add"
                   action="{{ route('voyager.'.$dataType->slug.'.mini.update', [
-            JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id,
+            Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id,
             'id' => $index
              ]) }}"
                   method="POST" enctype="multipart/form-data">

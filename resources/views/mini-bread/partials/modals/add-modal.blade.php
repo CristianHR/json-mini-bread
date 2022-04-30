@@ -8,7 +8,7 @@
             </div>
             <form role="form"
                   class="form-edit-add"
-                  action="{{ route('voyager.'.$dataType->slug.'.mini.store', [ JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id ]) }}"
+                  action="{{ route('voyager.'.$dataType->slug.'.mini.store', [ Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id ]) }}"
                   method="POST" enctype="multipart/form-data">
 
             <!-- CSRF TOKEN -->

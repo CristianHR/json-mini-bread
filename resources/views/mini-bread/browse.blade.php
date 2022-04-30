@@ -154,7 +154,7 @@
                                             </td>
                                         @endforeach
                                         <td class="no-sort no-click" id="bread-actions">
-                                            @foreach(JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::actions() as $action)
+                                            @foreach(Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::actions() as $action)
                                                 @include('json-mini-bread::mini-bread.partials.actions', ['action' => $action])
                                             @endforeach
                                         </td>
@@ -340,7 +340,7 @@
         var deleteFormAction;
         $('td').on('click', '.delete', function (e) {
             const route = '{{ route('voyager.'.$dataType->slug.'.mini.destroy', [
-            JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id,
+            Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id,
             'id' => '__id'
              ]) }}'.replace('__id', $(this).data('id'));
 

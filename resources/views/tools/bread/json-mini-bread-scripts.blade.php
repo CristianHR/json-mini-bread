@@ -1,5 +1,5 @@
 @php
-    $jsonMiniBreadFormField = new \JsonMiniBreadHook\FormFields\JsonMiniBreadFormField();
+    $jsonMiniBreadFormField = new \Cristianhr\JsonMiniBreadHook\FormFields\JsonMiniBreadFormField();
 @endphp
 
 @section('javascript')

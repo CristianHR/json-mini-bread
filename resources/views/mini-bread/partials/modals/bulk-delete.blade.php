@@ -15,7 +15,7 @@
             </div>
             <div class="modal-footer">
                 <form action="{{ route('voyager.'.$dataType->slug.'.mini.destroy', [
-            JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id,
+            Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade::getSlugSingular($dataType->slug) => $dataTypeContent->id,
             'id' => '0'
              ]) }}" id="bulk_delete_form" method="POST">
                     {{ method_field("DELETE") }}
