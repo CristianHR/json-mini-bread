@@ -1,5 +1,5 @@
 {
-    "name": "cristianhr-json-mini-bread",
+    "name": "cristianhr/json-mini-bread",
     "description": "Creates a mini BREAD nested inside another model.",
     "license": "MIT",
     "authors": [
