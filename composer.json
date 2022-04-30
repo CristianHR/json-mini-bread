@@ -17,6 +17,7 @@
             "Cristianhr\\JsonMiniBreadHook\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "extra": {
         "hook": {
             "providers": [
