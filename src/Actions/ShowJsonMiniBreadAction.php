@@ -2,8 +2,8 @@
 
 namespace Cristianhr\JsonMiniBreadHook\Actions;
 
-use JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
-use JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;
+use Cristianhr\JsonMiniBreadHook\Facades\JsonMiniBreadHookFacade;
+use Cristianhr\JsonMiniBreadHook\FormFields\JsonMiniBreadFormField;
 use TCG\Voyager\Actions\AbstractAction;
 
 class ShowJsonMiniBreadAction extends AbstractAction

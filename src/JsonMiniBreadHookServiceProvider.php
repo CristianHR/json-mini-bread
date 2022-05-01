@@ -53,8 +53,10 @@ class JsonMiniBreadHookServiceProvider extends ServiceProvider
                         return;
                     }
                     $dataTypeSlug = $dataType->slug;
+                    
                     $dataTypeSlugSingular = JsonMiniBreadHookFacade::getSlugSingular($dataType->slug);
                     $miniBreadSlug = kebab_case($dataRow->display_name);
+
                     $router->get("{$dataTypeSlug}/{{$dataTypeSlugSingular}}/{$miniBreadSlug}/",
                         '\\Cristianhr\\JsonMiniBreadHook\\Http\\Controllers\\JsonMiniBreadController@index')->name("{$dataTypeSlug}.mini.index");
                     $router->post("{$dataTypeSlug}/{{$dataTypeSlugSingular}}/{$miniBreadSlug}/",
